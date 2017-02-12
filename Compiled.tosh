@@ -1,0 +1,130 @@
+hide
+INIT
+MAXMIN
+ANDOR
+FACT7
+stop all
+
+define MAXMIN
+PUSH 1
+PUSH 2
+MAX
+.
+CR
+PUSH 2
+PUSH 1
+MAX
+.
+CR
+PUSH 1
+PUSH 2
+MIN
+.
+CR
+PUSH 2
+PUSH 1
+MIN
+.
+CR
+stop this script
+
+define ANDOR
+TRUE
+FALSE
+AND
+.
+CR
+TRUE
+TRUE
+AND
+.
+CR
+TRUE
+FALSE
+OR
+.
+CR
+FALSE
+FALSE
+OR
+.
+CR
+stop this script
+
+define FACT7
+PUSH 7
+FACT
+.
+stop this script
+
+define FACT
+DUP
+PUSH 1
+.EQ.
+POP
+if not abs of Popped = 0 then
+	DROP
+	PUSH 1
+else
+	DUP
+	PUSH 1
+	.SUB.
+	FACT
+	.MUL.
+end
+stop this script
+
+define INIT
+broadcast "INIT" and wait
+
+define PUSH (number1)
+set Number to number1
+broadcast "PUSH" and wait
+
+define POP
+broadcast "POP" and wait
+
+define DROP
+broadcast "rtDROP" and wait
+
+define DUP
+broadcast "rtDUP" and wait
+
+define .EQ.
+broadcast "rt=" and wait
+
+define .ADD.
+broadcast "rt+" and wait
+
+define .SUB.
+broadcast "rt-" and wait
+
+define .MUL.
+broadcast "rt*" and wait
+
+define .DIV.
+broadcast "rt/" and wait
+
+define OR
+broadcast "rtOR" and wait
+
+define AND
+broadcast "rtAND" and wait
+
+define FALSE
+PUSH 0
+
+define TRUE
+PUSH -1
+
+define MIN
+broadcast "rtMIN" and wait
+
+define MAX
+broadcast "rtMAX" and wait
+
+define .
+broadcast "rt." and wait
+
+define CR
+broadcast "rtCR" and wait
