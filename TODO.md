@@ -2,9 +2,9 @@
 ## \#MOBLuSE_FORTH 0.11.3 WORDS
 ### See below for coming words.
 \<
-=
+\=
 \>
-?
+\?
 -
 ,
 ;
