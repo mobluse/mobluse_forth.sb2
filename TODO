@@ -4,7 +4,7 @@
 
 ### See below for coming words.
 
-\<
+<
 =
 >
 ?
@@ -20,8 +20,8 @@
 (
 
 @
-\*
-\*/
+*
+*/
 +
 +!
 0<
@@ -30,8 +30,8 @@
 1-
 1+
 2-
-2\/
-2\*
+2/
+2*
 2+
 2DROP
 2DUP
@@ -75,7 +75,7 @@ ERASE
 EXECUTE
 EXIT
 EXT
-F\/
+F/
 FALSE
 FLOOR
 FORGET
@@ -101,8 +101,8 @@ MARKER
 MAX
 MIN
 MOD
-\/MOD
-\*\/MOD
+/MOD
+*/MOD
 MOVE
 MS
 NEGATE
@@ -152,12 +152,13 @@ Y
 
 
 ## Words in Starting FORTH main text that are missing in #MOBLuSE_FORTH
+
 <#
 [
 ]
 \
-\#
-\#>
+#
+#>
 2!
 2@
 2CONSTANT
@@ -192,31 +193,31 @@ FIND
 FM/MOD
 HEX
 HOLD
-\>IN
+>IN
 INCLUDED
 LIST
 LITERAL
 LOAD
 LSHIFT
-M\*
-M\*\/
+M*
+M*/
 M+
-\>NUMBER
+>NUMBER
 OCTAL
 PAD
 REVEAL
 RSHIFT
-\#S
+#S
 SCR
 SIGN
 SM/REM
 SP@
 SP0
 TIB
-\#TIB
+#TIB
 -TRAILING
 TYPE
-UM\*
+UM*
 UM/MOD
 UPDATE
 USE
