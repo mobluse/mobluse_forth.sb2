@@ -1,24 +1,24 @@
 # TODO
 ## \#MOBLuSE_FORTH 0.11.3 WORDS
 ### See below for coming words.
-<
+\<
 =
->
+\>
 ?
 -
 ,
 ;
 :
 !
-/
+\/
 .
 ."
 '
 (
 
 @
-*
-*/
+\*
+\*\/
 +
 +!
 0<
@@ -27,8 +27,8 @@
 1-
 1+
 2-
-2/
-2*
+2\/
+2\*
 2+
 2DROP
 2DUP
@@ -72,7 +72,7 @@ ERASE
 EXECUTE
 EXIT
 EXT
-F/
+F\/
 FALSE
 FLOOR
 FORGET
@@ -98,8 +98,8 @@ MARKER
 MAX
 MIN
 MOD
-/MOD
-*/MOD
+\/MOD
+\*\/MOD
 MOVE
 MS
 NEGATE
@@ -111,7 +111,7 @@ PLAY
 POS@
 POSTPONE
 QUIT
->R
+\>R
 .R
 R>
 R@
@@ -189,16 +189,16 @@ FIND
 FM/MOD
 HEX
 HOLD
->IN
+\>IN
 INCLUDED
 LIST
 LITERAL
 LOAD
 LSHIFT
-M*
-M*/
+M\*
+M\*\/
 M+
->NUMBER
+\>NUMBER
 OCTAL
 PAD
 REVEAL
@@ -213,7 +213,7 @@ TIB
 \#TIB
 -TRAILING
 TYPE
-UM*
+UM\*
 UM/MOD
 UPDATE
 USE
