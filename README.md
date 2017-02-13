@@ -30,9 +30,9 @@ WORDS – Lists all commands.
 
 .KEYB – Prints the keyboard layout.
 
-: QUADRATIC  ( a b c x – n ) >R SWAP ROT R@ *  + R> *  + ; 2 7 9 3 QUADRATIC .<CR> – Computes a*x^2 + b*x + c, where a=2, b=7, c=9, x=3.
+: QUADRATIC  ( a b c x – n ) >R SWAP ROT R@ *  + R> *  + ; 2 7 9 3 QUADRATIC .\<CR> – Computes a*x^2 + b*x + c, where a=2, b=7, c=9, x=3.
 
-: GIFT   .” chocolate“ ; : GIVER   .” Mum“ ; : THANKS CR .” Dear “ GIVER .” ,“ CR  .”  Thanks for the “ GIFT .” . “ ; THANKS
+: GIFT   ." chocolate" ; : GIVER   ." Mum" ; : THANKS CR ." Dear " GIVER ." ," CR  ."  Thanks for the " GIFT ." . " ; THANKS
 
 : FACT ?DUP IF DUP 1 - FACT * ELSE 1 THEN ; 7 FACT .
 
@@ -69,8 +69,8 @@ fb ( n -- )  dup 5 mod 0=  over 3 mod 0=  BOTH   ." FizzBuzz "  ELSE   ." Fizz "
 
 I have made some new videos about this FORTH programming language and a FORTH playlist:
 
-1. (old) https://youtu.be/VZfUFnioLko     1 min <-- Dec 26 2016
-2. (new) https://youtu.be/FwEgRetggFg     1 min <-- Feb 2 2017
+1. (old) https://youtu.be/VZfUFnioLko     1 min \<-- Dec 26 2016
+2. (new) https://youtu.be/FwEgRetggFg     1 min \<-- Feb 2 2017
 3. (new) https://youtu.be/tPk1nNgq6NE     1 min
 4. (new) https://youtu.be/tZOYPTv77pI     1 min
 5. (new) https://youtu.be/nr0c87lrC64     1 min
@@ -80,13 +80,13 @@ https://www.youtube.com/playlist?list=PLD8D8534DD63B28EA
 Please report bugs and test-code in the comments!
 
 
-## Notes
+## Notes and Credits
 It's called #MOBLuSE_FORTH.
 
 FORTH: https://en.wikipedia.org/wiki/Forth_(programming_language)
 
 The goal is to be compatible with the book "Starting FORTH" by Leo Brodie:
-https://www.forth.com/starting-forth/ . I have now tested it with chapter 1-2, 3 (except disk) & 4-11 (except strings and formatted number printing).
+https://www.forth.com/starting-forth/ . I have now tested it with chapter 1-2, 3 (except disk) \& 4-11 (except strings and formatted number printing).
 
 Jupiter Ace was a computer with FORTH built-in:  
 https://en.wikipedia.org/wiki/Jupiter_Ace . This program should have a Jupiter Ace compatibility mode. Also for ZX-FORTH for ZX81: http://zx81.ordi5.free.fr/k7/k7.htm . Also for ANS FORTH: http://lars.nocrew.org/dpans/dpans.htm .
