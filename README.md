@@ -1,3 +1,4 @@
+![Demo of \#MOBLuSE_FORTH](https://j.gifs.com/JqXlzl.gif)
 # mobluse_forth.sb2
 \#MOBLuSE_FORTH -- a Forth (programming language) in Scratch 2 for Scratch.MIT.Edu  
 Article: https://scratch.mit.edu/discuss/topic/233532/
