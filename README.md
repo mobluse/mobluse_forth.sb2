@@ -9,10 +9,10 @@ The FORTH programming language is good for embedded systems and is used in succe
 
 Type using these keyboard keys (due to Scratch limitations):  
 0-9, A-Z = types key. FORTH is case insensitive.  
-Arrow right = Full stop, &lt;.&gt;.  
-Arrow left = Backspace, &lt;BS&gt;.  
-Arrow down = Carriage return/Enter, &lt;CR&gt;.  
-Arrow up = Shift - pressed before 0-9, A-Z, &lt;.&gt;, &lt;SPACE&gt;, &lt;CR&gt;.  
+Arrow right = Full stop, <.&gt;.  
+Arrow left = Backspace, <BS&gt;.  
+Arrow down = Carriage return/Enter, <CR&gt;.  
+Arrow up = Shift - pressed before 0-9, A-Z, <.&gt;, <SPACE&gt;, <CR&gt;.  
 Shift+J = -. Shift+K = +. Shift+B = &ast;. Shift+V = /. Shift+M = &gt;. Shift+1 = !. Shift+2 = @. Shift+I = (. Shift+O = ). Shift+P = ". Shift+Arrow right = ,. Shift+Z = :. Shift+X = ;. Shift+C = ?.  
 Shift+A = Ask – this makes copying from a tutorial and pasting into Scratch possible – typographical quote-characters from pasted text are converted to ASCII.  
 Shift+SPACE = Break.  
@@ -25,12 +25,12 @@ You can hide the stacks by going inside and click the check-boxes for the lists 
 
 The error codes are explained in: http://lars.nocrew.org/dpans/dpans9.htm
 
-Examples (press &lt;CR&gt; i.e. arrow down after each command):  
+Examples (press <CR&gt; i.e. arrow down after each command):  
 WORDS – Lists all commands.
 
 .KEYB – Prints the keyboard layout.
 
-: QUADRATIC  ( a b c x – n ) &gt;R SWAP ROT R@ &ast;  + R&gt; &ast;  + ; 2 7 9 3 QUADRATIC .\&lt;CR&gt; – Computes a&ast;x^2 + b&ast;x + c, where a=2, b=7, c=9, x=3.
+: QUADRATIC  ( a b c x – n ) &gt;R SWAP ROT R@ &ast;  + R&gt; &ast;  + ; 2 7 9 3 QUADRATIC .\<CR&gt; – Computes a&ast;x^2 + b&ast;x + c, where a=2, b=7, c=9, x=3.
 
 : GIFT   ." chocolate" ; : GIVER   ." Mum" ; : THANKS CR ." Dear " GIVER ." ," CR  ."  Thanks for the " GIFT ." . " ; THANKS
 
@@ -69,8 +69,8 @@ fb ( n -- )  dup 5 mod 0=  over 3 mod 0=  BOTH   ." FizzBuzz "  ELSE   ." Fizz "
 
 I have made some new videos about this FORTH programming language and a FORTH playlist:
 
-1. (old) https://youtu.be/VZfUFnioLko     1 min \&lt;-- Dec 26 2016
-2. (new) https://youtu.be/FwEgRetggFg     1 min \&lt;-- Feb 2 2017
+1. (old) https://youtu.be/VZfUFnioLko     1 min \<-- Dec 26 2016
+2. (new) https://youtu.be/FwEgRetggFg     1 min \<-- Feb 2 2017
 3. (new) https://youtu.be/tPk1nNgq6NE     1 min
 4. (new) https://youtu.be/tZOYPTv77pI     1 min
 5. (new) https://youtu.be/nr0c87lrC64     1 min
