@@ -91,7 +91,7 @@ https://www.forth.com/starting-forth/ . I have now tested it with chapter 1-2, 3
 Jupiter Ace was a computer with FORTH built-in:  
 https://en.wikipedia.org/wiki/Jupiter_Ace . This program should have a Jupiter Ace compatibility mode. Also for ZX-FORTH for ZX81: http://zx81.ordi5.free.fr/k7/k7.htm . Also for ANS FORTH: http://lars.nocrew.org/dpans/dpans.htm .
 
-Works in Phosphorus, but w/o showing stacks as lists:  
+Works in Phosphorus (i.e. using only JavaScript and no Flash), but w/o showing stacks as lists:  
 http://phosphorus.github.io/#137676871  
 http://phosphorus.github.io/app.html?id=137676871&turbo=true&full-screen=true
 
