@@ -96,10 +96,10 @@ https://en.wikipedia.org/wiki/Jupiter_Ace . This program should have a Jupiter A
 http://phosphorus.github.io/#137676871  
 http://phosphorus.github.io/app.html?id=137676871&turbo=true&full-screen=true
 
-[The Scratch 3 version](https://scratch.mit.edu/projects/302444111/) works in TurboWarp, and shows the stacks as lists:
+[The Scratch 3 version](https://scratch.mit.edu/projects/302444111/) works in TurboWarp, and shows the stacks as lists:  
 https://turbowarp.org/302444111?turbo
 
-Used Tosh as editor: https://tosh.tjvr.org/ . I also used Scratch 2 Offline Editor for debugging. I use FORTH-code from @BookOwl's Scratching FORTH in the sprite Compiled for testing: https://scratch.mit.edu/discuss/topic/213122/ .
+Used Tosh as editor: https://tosh.blob.codes/ . I also used Scratch 2 Offline Editor for debugging. I use FORTH-code from @BookOwl's Scratching FORTH in the sprite Compiled for testing: https://scratch.mit.edu/discuss/topic/213122/ .
 
 TODO: IF with empty stack, answer to exercise 4-5 in "Starting FORTH", editing command-line, history, all Scratch-commands, INCLUDED, screens, rest of the words from "Starting FORTH", optimizations e.g. stack-compression, bit-wise operators e.g. https://scratch.mit.edu/projects/18323862/ .
 
